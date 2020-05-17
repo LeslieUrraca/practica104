@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ejemplo de JavaScript</title>
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <script>
+   const conjunto1 = new WeakSet();
+    let usuario1 = {
+      nombre: "juan",
+      puntos: 200
+    };
+    conjunto1.add(usuario1);
+    console.log(conjunto1.has(usuario1)); <!DOCTYPE html>
+<html>
+
+<head>
+<title>Ejemplo de JavaScript</title>
+<meta charset="UTF-8">
+</head>
+
+<body>
+<script>
+const personas = [
+{
+nombre: "pedro",
+edad: 34
+},
+{
+nombre: "ana",
+edad: 54
+},
+{
+nombre: "carlos",
+edad: 12
+},
+{
+nombre: "maría",
+edad: 22
+},
+{
+nombre: "oscar",
+edad: 72
+}
+];
+// Recuperar todas las personas mayores de edad
+const personasmayores = personas.filter((elemento, indice, arreglo) => elemento.edad >= 18);
+for (let persona of personasmayores)
+document.write(`${persona.nombre} ${persona.edad}<br>`);
+</script>
+</body>
+
+</html>
+    usuario1 = null;
+
+  </script>
+</body>
+
+</html>
